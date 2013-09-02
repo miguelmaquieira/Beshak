@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<module>
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="org.cobogw.gwt.user.User" />
+	<inherits name="com.imotion.facturaqua.front.common.FacturaquaCommon" />
+	<inherits name="com.selene.arch.ArchDataModule"/>
+	<inherits name="com.google.gwt.http.HTTP" />
+	
+	<source path='client' />
+</module>

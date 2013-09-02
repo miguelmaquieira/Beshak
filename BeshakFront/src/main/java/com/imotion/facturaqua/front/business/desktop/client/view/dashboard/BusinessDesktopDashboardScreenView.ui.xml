@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	xmlns:s='urn:import:com.imotion.facturaqua.front.business.desktop.client.view.widget.header'
+	xmlns:c='urn:import:com.selene.arch.exe.gwt.client.ui.widget.anchor'>
+<!-- 	xmlns:t='urn:import:com.hosteneo.front.business.desktop.client.view.widget.status'> -->
+
+	<ui:with field='I18N_DASHBOARD_TEXTS'
+		type='com.imotion.facturaqua.front.business.client.view.dashboard.I18NBusinessDashboardTexts' />
+
+	<g:HTMLPanel>
+		<s:BusinessHeaderDesktopDeclarativeView ui:field="header" />
+		<!-- <div class="min-height wrapper"> -->
+<!-- 		<t:BusinessDesktopStatusWidgetPanel ui:field="statusWidgetPanel" addStyleNames="host-dashboard-statusPanel"></t:BusinessDesktopStatusWidgetPanel> -->
+		<div class="glare">
+			<div class="host-dashboard-row280" style="margin-top:180px">
+				<table border="0">
+				</table>
+			</div>
+		</div>
+		<!-- </div> -->
+	</g:HTMLPanel>
+</ui:UiBinder>

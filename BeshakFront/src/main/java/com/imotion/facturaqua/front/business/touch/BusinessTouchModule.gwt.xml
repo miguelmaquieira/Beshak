@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="businessTouch" >
+
+    <inherits name="com.google.gwt.ajaxloader.AjaxLoader" />
+    <inherits name="com.imotion.facturaqua.front.business.BusinessModule" />
+    
+    <source path="client" />
+
+    <entry-point class="com.imotion.facturaqua.front.business.touch.client.BusinessTouchAppEntryPoint" />
+    
+    <replace-with class="com.selene.arch.exe.gwt.client.ui.AEGWTScreenTransitionManagerMobile">
+		<when-type-is class="com.selene.arch.exe.gwt.client.ui.AEGWTScreenTransitionManager" />
+	</replace-with>
+
+    <replace-with class="com.hosteneo.front.business.client.BusinessBaseAppInitializer" >
+        <when-type-is class="com.selene.arch.exe.gwt.mvp.AppInitializer" />
+    </replace-with>
+    
+    <extend-property name="locale" values="en_EN,es_ES" />
+    <set-property-fallback name="locale" value="en_EN" />
+</module>
