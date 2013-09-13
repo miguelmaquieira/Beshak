@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Application Name="SAPP">
+<Application Name="BSK">
 	<ServiceList>
-		<Service Name="SAPP">
-			<Description>Application SeleneApp</Description>
+		<Service Name="BSK">
+			<Description>Application Beshak</Description>
 			<Type>300171086790656</Type>
 			<Descriptor></Descriptor>
 			<ParametersMap>
-				<Parameter id="CFG.HOST.LOCALE">
+				<Parameter id="CFG.BSK.LOCALE">
 					<Param>
 						<value>es_ES;en_EN</value>
 						<type>STATIC</type>
@@ -123,7 +123,7 @@
 		<Service Name="SRV_BUS_LOGIN">
 			<Description>Utilities class for business common functions</Description>
 			<Type>300171153899520</Type>
-			<Descriptor>com.selene.seleneapp.business.service.impl.SAPPBUBusinessLoginServiceImpl</Descriptor>
+			<Descriptor>com.imotion.beshak.business.service.impl.BSKBUBusinessLoginServiceImpl</Descriptor>
 			<SubServiceList>
 				<SubService Name="IS_VALID_SESSION">
 					<Descriptor>isValidSession</Descriptor>
