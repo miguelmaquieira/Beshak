@@ -1,7 +1,7 @@
 <!doctype html>
 <html style="height:100%" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 	<head>
-		<title>SeleneApp, the seed where all begins</title>
+		<title>Beshak, descubriendo el talento literario</title>
 		
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
@@ -10,8 +10,8 @@
 		<link type="text/css" rel="stylesheet" href="css/SeleneDesktopModule.css"/>
 		<link type="text/css" rel="stylesheet" href="css/BusinessCommonModule.css"/>
 		<link type="text/css" rel="stylesheet" href="css/BusinessDesktopModule.css"/>
-		<link type="text/css" rel="stylesheet" href="css/SeleneAppCommonModule.css"/>
-		<link type="text/css" rel="stylesheet" href="css/SeleneAppDesktopModule.css"/>
+		<link type="text/css" rel="stylesheet" href="css/BeshakCommonModule.css"/>
+		<link type="text/css" rel="stylesheet" href="css/BeshakDesktopModule.css"/>
 		<link type="text/css" rel="stylesheet" href="css/gwt/clean.css"/>
 		
 		
