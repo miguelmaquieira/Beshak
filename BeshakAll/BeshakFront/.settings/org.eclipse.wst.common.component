@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FacturaquaFront">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="BeshakBom-Beta_0100.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BeshakBom/BeshakBom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BeshakBusiness-Beta_0100.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BeshakBusiness/BeshakBusiness">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BeshakBackend-Beta_0100.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BeshakBackend/BeshakBackend">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SeleneBase-Beta_Selene_2600.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SeleneBase/SeleneBase">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SeleneDev-Beta_Selene_2600.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SeleneDev/SeleneDev">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Selene4GWT-Beta_Selene_2600.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Selene4GWT/Selene4GWT">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="FacturaquaFront"/>
+        <property name="java-output-path" value="/FacturaquaFront/target/classes"/>
+    </wb-module>
+</project-modules>

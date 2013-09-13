@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder 
+	xmlns:ui='urn:ui:com.google.gwt.uibinder' 
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	xmlns:c='urn:import:com.selene.arch.exe.gwt.client.ui.widget.anchor'
+	xmlns:s='urn:import:com.selene.arch.exe.gwt.client.ui.widget.combo'>
+	
+	<g:HTMLPanel>	
+		<div class="fact-touch-navHeader">
+			<table>
+				<tbody>
+				<tr>
+					<td><c:AEGWTImageAnchor 	ui:field='logo' 			styleName="left" 	addStyleNames="busi-headerLogo" imageOut="images/nologo.png" imageOver="images/nologo.png"></c:AEGWTImageAnchor></td>
+					<td><g:SimplePanel 			ui:field='widgetPanel' 		styleName="right"	addStyleNames="busi-icoHeader, busi-icoHeaderLeft"></g:SimplePanel></td>			
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="testDesktop">
+
+ 	<inherits name="com.selene.seleneapp.front.business.desktop.BusinessDesktopModule"/> 
+	    <source path="client" />
+	
+	<replace-with class="com.selene.seleneapp.front.business.desktop.test.client.TestDesktopAppEntryPoint">
+		<when-type-is class="com.selene.seleneapp.front.business.desktop.client.BusinessDesktopAppEntryPoint" />
+	</replace-with>
+
+</module>

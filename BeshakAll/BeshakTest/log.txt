@@ -1,0 +1,190 @@
+log4j:WARN No appenders could be found for logger (org.apache.jasper.compiler.JspRuntimeContext).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[2013-09-05 17:20:51,460 DEBUG] 1110102000000#1110101000141#1110304000000|null 
+[2013-09-05 17:20:51,463 WARN] 1110304000000#1110101000131#SRV_ERROR|AEMFTErrorServiceBase 
+[2013-09-05 17:20:51,464 WARN] 1110304000000#1110101000132#SRV_ERROR|AEMFTErrorServiceBase|END_OK 
+[2013-09-05 17:20:51,464 DEBUG] 1110102000000#1110101000141#1110105000000|null 
+[2013-09-05 17:20:51,466 WARN] 1110105000000#1110101000131#SRV_LITERAL|AEMFTLiteralServiceBase 
+[2013-09-05 17:20:51,466 WARN] 1110105000000#1110101000132#SRV_LITERAL|AEMFTLiteralServiceBase|END_OK 
+[2013-09-05 17:20:51,467 DEBUG] 1110102000000#1110101000141#111010e000000|null 
+[2013-09-05 17:20:51,469 DEBUG] 1110102000000#1110101000141#1110104000000|null 
+[2013-09-05 17:20:51,471 WARN] 1110104000000#1110101000131#SRV_SERIALIZATION|AEMFTSerializationServiceBase 
+[2013-09-05 17:20:51,475 DEBUG] 1110104000000#1110104000147#com.selene.arch.exe.core.appli.serialization.serializer.AEMFTSerializerCastor|config/|mapping-sailor.xml 
+[2013-09-05 17:20:51,475 WARN] 1110104000000#1110101000132#SRV_SERIALIZATION|AEMFTSerializationServiceBase|END_OK 
+[2013-09-05 17:20:51,475 DEBUG] 1110102000000#1110101000141#1110108000000|null 
+[2013-09-05 17:20:51,482 WARN] 1110108000000#1110101000131#SRV_MAIL|AEMFTMailServiceJavaMailGAE 
+[2013-09-05 17:20:51,482 WARN] 1110108000000#1110101000132#SRV_MAIL|AEMFTMailServiceJavaMailGAE|END_OK 
+[2013-09-05 17:20:51,483 DEBUG] 1110102000000#1110101000141#1110306000000|null 
+[2013-09-05 17:20:51,484 WARN] 1110306000000#1110101000131#SRV_CACHE|AEMFTCacheServiceImplOsCache 
+[2013-09-05 17:20:51,484 WARN] 1110306000000#1110101000132#SRV_CACHE|AEMFTCacheServiceImplOsCache|END_OK 
+[2013-09-05 17:20:51,484 DEBUG] 1110102000000#1110101000141#1110109000000|null 
+[2013-09-05 17:20:51,488 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_TRACE.NIVEL_TRAZA.SRV_XSLT|undefined 
+[2013-09-05 17:20:51,488 WARN] 1110109000000#1110101000131#SRV_XSLT|AEMFTXsltServiceBase 
+[2013-09-05 17:20:51,488 WARN] 1110109000000#1110101000132#SRV_XSLT|AEMFTXsltServiceBase|END_OK 
+[2013-09-05 17:20:51,488 DEBUG] 1110102000000#1110101000141#111010a000000|null 
+[2013-09-05 17:20:51,491 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_TRACE.NIVEL_TRAZA.SRV_PDF|undefined 
+[2013-09-05 17:20:51,491 WARN] 111010a000000#1110101000131#SRV_PDF|AEMFTPdfServiceBase 
+[2013-09-05 17:20:51,492 WARN] 111010a000000#1110101000132#SRV_PDF|AEMFTPdfServiceBase|END_OK 
+[2013-09-05 17:20:51,493 DEBUG] 1110106100000#1110106100141#SRV_APPCONTROLLER|1110101000411 
+[2013-09-05 17:20:51,493 DEBUG] 1110106100000#1110106100141#SRV_APPCONTROLLER|1110101000412 
+[2013-09-05 17:20:51,493 DEBUG] 1110106100000#1110106100141#SRV_APPCONTROLLER|1110101000413 
+[2013-09-05 17:20:51,494 DEBUG] 1110106100000#1110106100141#SRV_APPCONTROLLER|1110101000414 
+[2013-09-05 17:20:51,494 DEBUG] 1110106100000#1110106100141#SRV_APPCONTROLLER|1110101000415 
+[2013-09-05 17:20:51,494 DEBUG] 1110106100000#1110106100141#SRV_APPCONTROLLER|1110101000416 
+[2013-09-05 17:20:51,494 WARN] 1110102000000#1110102000131#technicalChannel: 2
+|baseDirectory: /home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//
+|configDirectory: /home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF/config//
+|configFileName: sailor.properties
+|virtualDirectory: null
+ 
+[2013-09-05 17:20:51,494 DEBUG] 1110102000000#1110101000141#1110107000000|[Ljava.lang.Object;@22b49404 
+[2013-09-05 17:20:51,497 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_APPLICATION.TAMANIO_HASH_SERVICIOS|undefined 
+[2013-09-05 17:20:51,497 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_TRACE.NIVEL_TRAZA.FACT|undefined 
+[2013-09-05 17:20:51,497 WARN] 1110107000000#1110101000131#FACT|AEMFTApplicationServiceBase 
+[2013-09-05 17:20:51,497 WARN] 1110107000000#1110107000132#FACT|/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//config/ 
+[2013-09-05 17:20:51,498 DEBUG] 1110104000000#1110104000148#/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//config/mapping-sailor.xml 
+[2013-09-05 17:20:51,498 DEBUG] 1110104000000#1110104000145#/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//config/|FACT.xml|/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//config/mapping-sailor.xml 
+[2013-09-05 17:20:51,704 DEBUG] 1110104000000#1110104000146#AEMFTApplicationDefinition|517478350|/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//config/|FACT.xml|/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//config/mapping-sailor.xml 
+[2013-09-05 17:20:51,705 DEBUG] 1110107000000#1110101000141#1110105000000|null 
+[2013-09-05 17:20:51,706 WARN] 1110105000000#1110101000131#SRV_LITERAL|AEMFTLiteralServiceBase 
+[2013-09-05 17:20:51,707 WARN] 1110105000000#1110105000132#/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//res/dummy_literal.es_ES.properties|UTF8 
+[2013-09-05 17:20:51,707 WARN] 1110105000000#1110105000133#es_ES.clave2|valor2 
+[2013-09-05 17:20:51,707 WARN] 1110105000000#1110105000133#es_ES.clave1|valor1 
+[2013-09-05 17:20:51,708 WARN] 1110105000000#1110105000131#dummy_literal 
+[2013-09-05 17:20:51,708 WARN] 1110105000000#1110105000132#/home/jorge/git/Facturaqua/FacturaquaAll/FacturaquaTest/target/FacturaquaTest/WEB-INF//res/dummy_literal.en_EN.properties|UTF8 
+[2013-09-05 17:20:51,708 WARN] 1110105000000#1110105000133#en_EN.key2|value2 
+[2013-09-05 17:20:51,708 WARN] 1110105000000#1110105000133#en_EN.key1|value1 
+[2013-09-05 17:20:51,709 WARN] 1110105000000#1110105000131#dummy_literal 
+[2013-09-05 17:20:51,709 WARN] 1110105000000#1110101000132#SRV_LITERAL|AEMFTLiteralServiceBase|END_ASYNCHRONOUS 
+[2013-09-05 17:20:51,709 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_APPLICATION.FACT.AUTH_SERVICE|undefined 
+[2013-09-05 17:20:51,709 WARN] 1110107000000#1110101000132#FACT|AEMFTApplicationServiceBase|END_ASYNCHRONOUS 
+[2013-09-05 17:20:59,404 DEBUG] 1110102000000#1110110000143#1800 
+[2013-09-05 17:20:59,404 DEBUG] 1110102000000#1110110000141# 
+[2013-09-05 17:20:59,405 WARN] 1110107000000#1110107000133#FACT|jtz9j3vp1uiw 
+[2013-09-05 17:20:59,405 ERROR] 1110107000000#1110107000121#jtz9j3vp1uiw 
+[2013-09-05 17:20:59,405 DEBUG] 1110107000000#1110101000141#1110110000000|null 
+[2013-09-05 17:20:59,407 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_TRACE.NIVEL_TRAZA.jtz9j3vp1uiw|undefined 
+[2013-09-05 17:20:59,407 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_TRACE.NIVEL_TRAZA.SRV_SESSION|undefined 
+[2013-09-05 17:20:59,408 WARN] 1110110000000#1110101000131#jtz9j3vp1uiw|AEMFTSessionServiceBase 
+[2013-09-05 17:20:59,408 DEBUG] 1110102000000#1110101000141#1110305000000|null 
+[2013-09-05 17:20:59,409 DEBUG] 1110110000000#1110305000141# 
+[2013-09-05 17:20:59,409 DEBUG] 1110110000000#1110305000142# 
+[2013-09-05 17:20:59,409 FATAL] 1110302000000#1110304000111#300179592839874|CFG.SRV_TRACE.NIVEL_TRAZA.SRV_LOGIN|undefined 
+[2013-09-05 17:20:59,410 WARN] 1110305000000#1110101000131#SRV_LOGIN|AEMFTLoginServiceBase 
+[2013-09-05 17:20:59,410 WARN] 1110305000000#1110101000132#SRV_LOGIN|AEMFTLoginServiceBase|END_OK 
+[2013-09-05 17:20:59,410 DEBUG] 1110110000000#1110305000143# 
+[2013-09-05 17:20:59,410 WARN] 1110110000000#1110101000132#jtz9j3vp1uiw|AEMFTSessionServiceBase|END_OK 
+[2013-09-05 17:20:59,410 WARN] 1110102000000#1110110000131#SRV_SESSION.FACT|FACT|jtz9j3vp1uiw 
+[WARN] 404 - GET /css/gwt/clean.css (127.0.0.1) 1403 bytes
+   Request headers
+      Host: 127.0.0.1:8888
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0
+      Accept: text/css,*/*;q=0.1
+      Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+      Accept-Encoding: gzip, deflate
+      Cookie: JSESSIONID=jtz9j3vp1uiw
+      Connection: keep-alive
+      Referer: http://127.0.0.1:8888/TestDesktopModule.jsp?gwt.codesvr=127.0.0.1:9997
+   Response headers
+      Content-Type: text/html; charset=iso-8859-1
+      Content-Length: 1403
+[WARN] 404 - GET /cordova_plugins.json (127.0.0.1) 1406 bytes
+   Request headers
+      Host: 127.0.0.1:8888
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0
+      Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+      Accept-Encoding: gzip, deflate
+      Referer: http://127.0.0.1:8888/TestDesktopModule.jsp?gwt.codesvr=127.0.0.1:9997
+      Cookie: JSESSIONID=jtz9j3vp1uiw
+      Connection: keep-alive
+   Response headers
+      Content-Type: text/html; charset=iso-8859-1
+      Content-Length: 1406
+[2013-09-05 17:21:17,635 WARN] 1110102000000#1110110000132#jtz9j3vp1uiw|27780236 
+[2013-09-05 17:21:17,637 WARN] null#2000131#FACT|SRV_BRE_DEVICE_DETECTION|IS_MOBILE
+ 
+[2013-09-05 17:21:17,637 WARN] 1110102000000#1110110000132#jtz9j3vp1uiw|27780236 
+[2013-09-05 17:21:17,637 DEBUG] 1110107000000#1110101000141#111010e000000|null 
+Drools config: unable to use the drools.compiler property. Using default. It was set to:ECLIPSE 
+[2013-09-05 17:21:19,343 WARN] null#2000133#FACT|SRV_BRE_DEVICE_DETECTION|SRV_RETURN_CODE
+BRE_RESULT
+ 
+[2013-09-05 17:21:31,570 WARN] 1110102000000#1110110000132#jtz9j3vp1uiw|27780236 
+[2013-09-05 17:21:31,571 WARN] null#2000131#FACT|SRV_BRE_PUBLIC_PRIVATE|URI_DESIRED
+IS_AUTENTICATED
+ 
+[2013-09-05 17:21:31,571 WARN] 1110102000000#1110110000132#jtz9j3vp1uiw|27780236 
+[2013-09-05 17:21:31,571 DEBUG] 1110107000000#1110101000141#111010e000000|null 
+Drools config: unable to use the drools.compiler property. Using default. It was set to:ECLIPSE 
+[2013-09-05 17:21:31,906 WARN] null#2000133#FACT|SRV_BRE_PUBLIC_PRIVATE|SRV_RETURN_CODE
+BRE_RESULT
+ 
+[2013-09-05 17:21:39,351 WARN] null#2000131#HOST|ARCH_UTILS.GET_COMBO_DATA|DATASOURCE
+LOCALE
+ 
+[2013-09-05 17:21:39,351 FATAL] 1110102000000#1110102000111#HOST 
+[2013-09-05 17:21:39,351 FATAL] 1110102000000#1110102000111#HOST 
+[2013-09-05 17:21:39,354 FATAL] null#2000111#java.lang.NullPointerException
+	at com.selene.arch.exe.core.appli.appcontroller.implbase.AEMFTAppControllerServiceBase.setSessionOfApp(AEMFTAppControllerServiceBase.java:409)
+	at com.selene.arch.exe.core.appli.appcontroller.implbase.AEMFTAppControllerServiceBase.buildSessionOfApp(AEMFTAppControllerServiceBase.java:362)
+	at com.selene.arch.exe.bus.comm.implbase.AEMFTCommServerServiceBase.getSessionService(AEMFTCommServerServiceBase.java:503)
+	at com.selene.arch.exe.bus.comm.implbase.AEMFTCommServerServiceBase.executeComm(AEMFTCommServerServiceBase.java:74)
+	at com.selene.arch.exe.bus.comm.implbase.AEMFTCommServerServiceBase.executeComm(AEMFTCommServerServiceBase.java:133)
+	at com.selene.arch.exe.bus.comm.implbase.AEMFTCommServerServiceBase.getPropertyList(AEMFTCommServerServiceBase.java:419)
+	at com.selene.arch.exe.gwt.server.comm.AEGWTCommServerServletRPC.getPropertyList(AEGWTCommServerServletRPC.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:561)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:208)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:248)
+	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:362)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.handler.RequestLogHandler.handle(RequestLogHandler.java:49)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:843)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:647)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+ 
+[WARN] 404 - GET /images/transparent_icon-16.png (127.0.0.1) 1416 bytes
+   Request headers
+      Host: 127.0.0.1:8888
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0
+[      WARNAccept: image/png,image/*;q=0.8,*/*;q=0.5
+] 404 - GET /images/br_down_icon_darkgray-48.png (127.0.0.1) 1421 bytes
+      Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+      Accept-Encoding: gzip, deflate
+      Referer: http://127.0.0.1:8888/TestDesktopModule.jsp?gwt.codesvr=127.0.0.1:9997
+   Request headers
+      Host: 127.0.0.1:8888
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0
+      Accept: image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+      Accept-Encoding: gzip, deflate
+      Cookie: JSESSIONID=jtz9j3vp1uiw
+      Connection: keep-alive
+      Referer: http://127.0.0.1:8888/TestDesktopModule.jsp?gwt.codesvr=127.0.0.1:9997
+   Response headers
+      Content-Type: text/html; charset=iso-8859-1
+      Content-Length: 1421
+      Cookie: JSESSIONID=jtz9j3vp1uiw
+      Connection: keep-alive
+   Response headers
+      Content-Type: text/html; charset=iso-8859-1
+      Content-Length: 1416
