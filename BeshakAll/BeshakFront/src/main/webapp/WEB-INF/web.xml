@@ -25,7 +25,7 @@
 		</init-param>
 		<init-param>
 			<param-name>fconfig</param-name>
-			<param-value>sailor.properties</param-value>
+			<param-value>selene.properties</param-value>
 		</init-param>
 		<init-param>
 			<param-name>channel</param-name>
@@ -37,7 +37,7 @@
 		</init-param>
 		<init-param>
 			<param-name>apps</param-name>
-			<param-value>SAPP</param-value>
+			<param-value>BSK</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>

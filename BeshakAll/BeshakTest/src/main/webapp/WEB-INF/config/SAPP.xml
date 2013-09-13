@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Application Name="SAPP">
+<Application Name="BSK">
 	<ServiceList>
-		<Service Name="SAPP">
+		<Service Name="BSK">
 			<Description>Application Selene App Test</Description>
 			<Type>300171086790656</Type>
 			<Descriptor></Descriptor>
@@ -123,7 +123,7 @@
 		<Service Name="SRV_BUS_LOGIN">
 			<Description>Utilities class for business common functions</Description>
 			<Type>300171153899520</Type>
-			<Descriptor>com.selene.seleneapp.business.service.impl.SAPPBUBusinessLoginServiceImpl</Descriptor>
+			<Descriptor>com.imotion.beshak.business.service.impl.BSKBUBusinessLoginServiceImpl</Descriptor>
 			<SubServiceList>
 				<SubService Name="IS_VALID_SESSION">
 					<Descriptor>isValidSession</Descriptor>
@@ -182,7 +182,7 @@
 		<Service Name="SRV_TEST">
 			<Description>Test business service</Description>
 			<Type>300171153899520</Type>
-			<Descriptor>com.selene.seleneapp.business.service.impl.TestBusinessServiceImpl</Descriptor>
+			<Descriptor>com.imotion.beshak.business.service.impl.TestBusinessServiceImpl</Descriptor>
 			<SubServiceList>
 				<SubService Name="TEST_JSON">
 					<Descriptor>testJSON</Descriptor>

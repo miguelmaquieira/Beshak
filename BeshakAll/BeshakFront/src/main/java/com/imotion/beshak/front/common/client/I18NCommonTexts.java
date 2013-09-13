@@ -23,6 +23,6 @@ public interface I18NCommonTexts extends AEGWTI18NCommonTexts {
 	@DefaultStringValue("Live chat")
 	String header_menu_live_chat_service_text();
 
-	@DefaultStringValue("SeleneApp Live")
+	@DefaultStringValue("Beshak Live")
 	String header_live_chat_service_form_title_text();
 }

@@ -2,7 +2,7 @@ package com.imotion.beshak.front.business.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.Window.Location;
-import com.imotion.beshak.business.SAPPBUIServiceConstant;
+import com.imotion.beshak.business.BSKBUIServiceConstant;
 import com.imotion.beshak.front.business.client.presenter.BusinessPresenterBaseConstants;
 import com.imotion.beshak.front.business.client.presenter.logout.BusinessLogoutPresenter;
 import com.selene.arch.exe.gwt.client.common.AEGWTBaseAppContextMapper;
@@ -65,7 +65,7 @@ public abstract class BusinessBaseAppController extends AEGWTLoginAppController 
 	
 	
 	public String getBusinessLoginService() {
-		return SAPPBUIServiceConstant.CTE_SRV_BUSINESS_LOGIN_SERVICE_DEFAULT_IMPL;
+		return BSKBUIServiceConstant.CTE_SRV_BUSINESS_LOGIN_SERVICE_DEFAULT_IMPL;
 	}
 
 	@Override
