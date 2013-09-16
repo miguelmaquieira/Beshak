@@ -27,8 +27,8 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/SeleneBase"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Selene4GWT"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Selene"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SeleneAppBackend"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SeleneAppBom"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SeleneAppBusiness"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBackend"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBom"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBusiness"/>
 	<classpathentry kind="output" path="target/BeshakFront/WEB-INF/classes"/>
 </classpath>
