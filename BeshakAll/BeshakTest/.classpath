@@ -23,12 +23,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/SeleneBase"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Selene"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Selene4GWT"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SeleneBase"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBackend"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBom"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBackend"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/BeshakBusiness"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/BeshakFront"/>
 	<classpathentry kind="output" path="target/SeleneAppTest/WEB-INF/classes"/>
 </classpath>

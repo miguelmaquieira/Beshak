@@ -151,7 +151,7 @@
 	
 	<!-- Default page to serve -->
 	<welcome-file-list>
-		<welcome-file>TestDesktopModule.jsp</welcome-file>
+		<welcome-file>testBeshak Grande.html</welcome-file>
 	</welcome-file-list>
 
 </web-app>
