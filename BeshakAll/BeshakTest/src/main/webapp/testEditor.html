@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Bootstrap 101 Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/menu.css" rel="stylesheet">
+		<link href="css/editor.css" rel="stylesheet">
+		<style>
+			body{background-color:#40BA5A;  color:#fff; font-family:open-sans,min-height:768px;}
+			.header{padding-top:115px; padding-bottom:75px;}
+			.container{width:856px;}
+			.logo{}
+			.subLogo{font-size:28px;  padding-top:20px;}
+			.featuresContainer{padding-bottom:50px;}
+			.feature{padding:10px;}
+			.featureImage{}
+			.featureTitle{font-size:25px; padding-top:22px;}
+			.featureDescription{font-size:16px; padding-top:12px; width:175px; margin-left:auto; margin-right:auto;}
+			.separator {padding-bottom:15px;}
+			.signContainer{font-size:18px; height:45px;}
+			.signInfo{vertical-align:middle; width:240px; margin-right:23px;}
+			.signTextBox input{background-color:rgba(0,0,0,0); font-family:inherit; color:#fff; font-size:inherit; vertical-align:middle; height:35px;width:236px; margin-right:23px;}
+			.signButton{background-color:#fff; color:#40BA5A;border:0px; border-radius:3px; height:45px; width:320px; font-size:inherit;}
+			.inline{display:inline;}
+			.btn{background-color:#fff;
+		</style>
+  	</head>
+  	<body>
+		<div class="container" >
+			<div class="header">
+				<div class="logo pagination-centered">
+					<img src="images/logo_beshak_landing.png"></img>	
+				</div>
+				<div class="subLogo pagination-centered">
+					Descubriendo el talento literario
+				</div>
+			</div>
+			<div id="editor" class="g-body">
+				<section>
+					<article contenteditable="true" class="content">
+						<h1>Welcome, this is grande.js</h1>
+						<blockquote>"Make every detail perfect and limit the number of details to perfect." - <span class="jack">Jack Dorsey</span></blockquote>
+						<p>Style your text to how you <b>think</b> and put the <i>feeling</i> into your words. Just select any text and choose how you want it to look from the menu.</p>
+						<ul>
+							<li>Create a bulleted list simply by typing "- " and hitting enter</li>
+						</ul>
+				  <ol>
+				    <li>Assign the most important tasks in your day by starting the line with "1. "</li>
+				    <li>What's on your mind today?</li>
+				  </ol>
+
+				  <p>Let your users express themselves. Take a look at the project on Github <a href="github.com/mduvall/grande.js">here</a>.</p>
+				</article>
+			 </section>
+
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/grande beshak.js"></script>
+		<script type="text/javascript">
+			grande.bind();
+		</script>
+	</body>
+</html>
