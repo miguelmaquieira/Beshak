@@ -53,7 +53,7 @@
 		.featureTitle{font-size:25px; padding-top:22px;}
 		.featureDescription{font-size:16px; padding-top:12px; width:175px; margin-left:auto; margin-right:auto;}
 		.separator {padding-bottom:15px;}
-		.signContainer{font-size:18px; height:45px;}
+		.signContainer{font-size:18px; height:45px; padding-bottom: 30px;}
 		.signInfo{vertical-align:middle; width:240px; margin-right:23px;}
 		.signTextBox input{background-color:rgba(0,0,0,0); font-family:inherit; color:#fff; font-size:inherit; vertical-align:middle; height:35px;width:236px; margin-right:23px;}
 		.signButton{background-color:#fff; color:#40BA5A;border:0px; border-radius:3px; height:45px; width:320px; font-size:inherit;}
