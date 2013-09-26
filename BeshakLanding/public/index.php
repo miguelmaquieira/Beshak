@@ -1,6 +1,6 @@
 <?php
-	//error_reporting(E_ALL);
-	//ini_set('display_errors', '1');
+	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
 	$email = $_POST["email"];
 	if (isset($email)) {
 		$appPath = $_SERVER['DOCUMENT_ROOT'].'/../application/';
@@ -58,10 +58,16 @@
 		.signTextBox input{background-color:rgba(0,0,0,0); font-family:inherit; color:#fff; font-size:inherit; vertical-align:middle; height:35px;width:236px; margin-right:23px;}
 		.signButton{background-color:#fff; color:#40BA5A;border:0px; border-radius:3px; height:45px; width:320px; font-size:inherit;}
 		.inline{display:inline;}
-		.btn{background-color:#fff;
+		.btn{background-color:#fff;}
+		.error{max-width:200px}
 	</style>
-	<script src="http://code.jquery.com/jquery.js"></script>
+	<!-- JavaScript plugins (requires jQuery) -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<!-- Validate plugin -->
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/localization/messages_es.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/validation-beshak.js"></script>
   </head>
   <body>
 	<div class="container" >
@@ -132,7 +138,7 @@
 			<div class="separator pagination-centered">
 				<img src="images/landing_beshak_separador.png"></img>
 			</div>
-			<form action="" method="post">
+			<form action="" method="post" id="subscribe-form">
 				<div class="row-fluid signContainer">
 					<div class="pull-left pagination-centered">
 						<div class="signInfo">
@@ -140,7 +146,7 @@
 						</div>
 					</div>
 					<div class="pull-left pagination-centered signTextBox">
-						<input type="text" placeholder="Introducir email..." name="email">
+						<input type="text" placeholder="Introducir email..." name="email" id="email">
 					</div>
 					<div class="pull-left pagination-centered">
 						<button class="signButton" type="submit">Quiero estar entre los pioneros!</button>
