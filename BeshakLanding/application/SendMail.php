@@ -1,13 +1,13 @@
 <?php
 
-function sendMailToAdmin($tagAsunto, $subscriberMail) {
+function sendMailToAdmin($tagAsunto, $subscriberMail, $subscriberUserName) {
 	$httpReferer = $_SERVER['HTTP_REFERER'];
 	$userAgent	= $_SERVER['HTTP_USER_AGENT'];
 // 	$recipient = "info@beshak.com";
 // 	$recipient = "gael@imotionfactory.com";
 	$recipient = "jorge@imotionfactory.com";
-	$subject   = $tagAsunto." ".$subscriberMail;
-	$message   = "El usuario con correo <strong>".$subscriberMail."</strong> se ha suscrito a Beshak <br/>";
+	$subject   = $tagAsunto." ".$subscriberMail." - ".$subscriberUserName;
+	$message   = "El usuario con correo <strong>".$subscriberMail."</strong> y nombre de usuario <strong>".$subscriberUserName."</strong> se ha suscrito a Beshak <br/>";
 
 	$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 	$cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";

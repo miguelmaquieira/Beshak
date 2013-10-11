@@ -1,0 +1,126 @@
+/*--GENERALES
+-----------------------------------------------------*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+body {
+  color: #555555;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: left !important;
+  text-transform: none !important;
+  letter-spacing: -1px;
+}
+h2 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 25px;  
+}
+h3 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px; 
+}
+h4 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: -25px;
+  text-align: justify;
+}
+.btn {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+/*--BANDA PRINCIPAL
+-----------------------------------------------------*/
+#principal {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  min-height: 500px;
+  background-color: #34495e;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+/* Large desktop */
+@media ( min-width :1600px) {
+  #principal{
+	background: url(../img/typewriter_2560x570.jpg) top center;
+	}
+}	
+/* Landscape phones and down */
+@media ( max-width :1600px) {
+	#principal {
+	background: url(../img/typewriter_1600x570.jpg) top center;
+	}
+}
+#title {
+  padding-bottom: 30px;
+}
+#logo {
+  text-align: left;
+  margin-bottom: 20px;
+}
+#eslogan {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  color:#fff;
+}
+#CTA {
+  margin-top: 10px;
+  padding: 15px 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(240, 240, 240, 0.1);
+  border-radius: 3px;
+  text-shadow: 0 1px rgba(255,255,255,0.2);
+}
+/*--BANDA SECUNDARIA
+-----------------------------------------------------*/
+#secundaria {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 0px;
+  background: url(../img/linedpaper.png) repeat;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #555555;
+  box-shadow: inset 0 5px 5px -5px rgba(0,0,0,.5);
+  -webkit-box-shadow: inset 0 5px 5px -5px rgba(0,0,0,.5);
+}
+#icono {
+  opacity: 1;
+}
+/*--FOOTER
+-----------------------------------------------------*/
+.footer {
+  background: url(../img/linedpaper.png) repeat;
+  border-top: 1px dashed #ccc;
+  min-height: 30px;
+  background-color: #bdc3c7;
+  padding: 15px 0 0 0;
+  color: #777;
+  font-size: 12px;
+}
+/*--MAILCHIMP
+-----------------------------------------------------*/
+#mc_embed_signup {
+  background: transparent;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+.form-field {
+  width: 237px;
+  height: 34px !important;
+}

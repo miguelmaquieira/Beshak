@@ -9,13 +9,15 @@ function connectDb() {
 	return $con;
 }
 
-function insertSubscriptor($email) {
+function insertSubscriptor($email, $userName) {
 	$con 			= connectDb();
 	$httpReferer 	= $_SERVER['HTTP_REFERER'];
 	$userAgent		= $_SERVER['HTTP_USER_AGENT'];
-	$email = mysqli_real_escape_string($con, $email);
-	$query = "INSERT INTO Subscribers (email, httpReferer, userAgent) VALUES ('$email', '$httpReferer', '$userAgent')";
+	$email 		= mysqli_real_escape_string($con, $email);
+	$userName 	= mysqli_real_escape_string($con, $userName);
+	$query = "INSERT INTO Subscribers (email, username, httpReferer, userAgent) VALUES ('$email', '$userName', '$httpReferer', '$userAgent')";
 	$ok = mysqli_query($con, $query);
+// 	echo mysqli_error($con);
 }
 
 ?>

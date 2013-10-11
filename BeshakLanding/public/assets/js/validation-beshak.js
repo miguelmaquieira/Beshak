@@ -11,6 +11,9 @@ $(document).ready(function(){
 	    	email: {
 	    		required: true,
 	    		email: true
+	    	},
+	    	username: {
+	    		required: true
 	    	}
 	    }
 	  });
